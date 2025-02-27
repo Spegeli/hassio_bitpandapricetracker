@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "domain": "bitpanda_price_tracker",
+  "name": "Bitpanda Price Tracker",
+  "documentation": "https://github.com/Spegeli/bitpanda_price_tracker",
+  "issue_tracker": "https://github.com/Spegeli/bitpanda_price_tracker/issues",
+  "codeowners": ["@spegeli"],
+  "requirements": ["aiohttp>=3.7.4"],
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "single_config_entry": true,
+  "translations": ["translations"]
+}
